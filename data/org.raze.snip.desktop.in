@@ -1,0 +1,27 @@
+[Desktop Entry]
+Type=Application
+Name=Raze Snip
+Comment=Capture a snip directly to the clipboard
+Exec=@CMAKE_INSTALL_FULL_BINDIR@/raze-snip --area
+Icon=edit-cut
+Terminal=false
+Categories=Utility;Qt;
+StartupNotify=false
+X-KDE-DBUS-Restricted-Interfaces=org.kde.KWin.ScreenShot2
+Actions=Area;Screen;Workspace;Edit;
+
+[Desktop Action Area]
+Name=Capture region
+Exec=@CMAKE_INSTALL_FULL_BINDIR@/raze-snip --area
+
+[Desktop Action Screen]
+Name=Capture active monitor
+Exec=@CMAKE_INSTALL_FULL_BINDIR@/raze-snip --screen
+
+[Desktop Action Workspace]
+Name=Capture workspace
+Exec=@CMAKE_INSTALL_FULL_BINDIR@/raze-snip --workspace
+
+[Desktop Action Edit]
+Name=Edit last capture
+Exec=@CMAKE_INSTALL_FULL_BINDIR@/raze-snip --edit

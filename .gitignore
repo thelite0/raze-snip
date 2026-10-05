@@ -1,0 +1,8 @@
+/build*/
+*.user
+
+/work/
+/outputs/
+/smoke*/
+*.rpm
+*.tar.gz

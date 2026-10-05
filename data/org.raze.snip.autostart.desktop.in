@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Raze Snip
+Exec=@CMAKE_INSTALL_FULL_BINDIR@/raze-snip --daemon
+Icon=edit-cut
+Terminal=false
+NoDisplay=true
+OnlyShowIn=KDE;
+X-KDE-autostart-phase=2
+X-KDE-DBUS-Restricted-Interfaces=org.kde.KWin.ScreenShot2
